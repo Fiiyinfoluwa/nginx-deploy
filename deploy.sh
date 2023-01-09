@@ -45,5 +45,3 @@ ln -s /etc/nginx/sites-available/fiiyinfoluwa.live /etc/nginx/sites-enabled/
 rm /etc/nginx/sites-enabled/default
 
 systemctl restart nginx
-
-certbot --nginx --agree-tos --no-eff-email --redirect -m debayofatuase@gmail.com -d fiiyinfoluwa.live -d www.fiiyinfoluwa.live
